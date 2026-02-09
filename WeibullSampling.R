@@ -1,5 +1,3 @@
-#4 
-#(b)
 # Let h represent lambda
 weibullinverse<-function(n,k,h) {
   
@@ -52,5 +50,6 @@ hist(samples, probability = TRUE, breaks = 100, col = "lightgreen", border = "bl
      main = "Weibull Samples",
      xlab = "x", ylab = "Density")
 curve(dweibull(x, shape = k, scale = h), col = "darkblue", lwd = 3, add = TRUE) 
+
 
 #The histogram shows the sample density and the curve shows the density using the built-in R function. The curve (PDF) overlaps the histogram (CDF) and shows that the code is correct for the sample.
