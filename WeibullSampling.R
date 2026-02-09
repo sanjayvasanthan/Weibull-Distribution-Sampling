@@ -10,7 +10,6 @@ weibullinverse<-function(n,k,h) {
   return(X)
 }
 
-#(c)
 n<- 50000
 k<- 3
 h<- 7
@@ -53,3 +52,4 @@ curve(dweibull(x, shape = k, scale = h), col = "darkblue", lwd = 3, add = TRUE)
 
 
 #The histogram shows the sample density and the curve shows the density using the built-in R function. The curve (PDF) overlaps the histogram (CDF) and shows that the code is correct for the sample.
+
